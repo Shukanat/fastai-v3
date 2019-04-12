@@ -12,7 +12,7 @@ from fastai.vision import *
 export_file_url = 'https://drive.google.com/uc?export=download&id=1WfhJyIYdgm8OpIOCbvoTlyaHBZr7PFiz'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Aivazovsky', 'Cortes', 'Renoir', 'VanGogh']
 path = Path(__file__).parent
 
 app = Starlette()
