@@ -1,5 +1,6 @@
 body {
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background-color: #e9ecef;
 }
 
 .no-display {
@@ -51,6 +52,10 @@ button.choose-file-button {
   color: #7052CB;
 }
 
+button.choose-file-button:hover {
+  background-color: #e5e5e5;
+}
+
 button.analyze-button {
     width: 200px;
     height: 40px;
@@ -61,4 +66,47 @@ button.analyze-button {
     color: #ffffff;
 }
 
+button.analyze-button:hover {
+  /*background-color: #7052CB;*/
+  background-color: #e5e5e5;
+}
+
 button:focus {outline:0;}
+
+/*
+    Bootstrap style
+*/
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #e9ecef;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
